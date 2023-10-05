@@ -1,0 +1,62 @@
+.navbar {
+  height: 52px;
+  width: 100%;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-image {
+  height: 35px;
+  width: 35px;
+  margin: 10px;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+}
+.item {
+  list-style-type: none;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+.main-container {
+  background-image: url("https://media.istockphoto.com/id/1437120577/vector/abstract-luxury-elegant-background-expensive-creative-concept-decoration-is-used-in-cover.jpg?s=1024x1024&w=is&k=20&c=4YZ22G0uP45hWFbbjjljMkRKKH3U0oA0Ax3VHZGzzEk=");
+  background-size: cover;
+  display: flex;
+  height: 90vh;
+}
+.matter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-heading {
+  font-size: 40px;
+  color: blue;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 14px;
+}
+.description {
+  font-size: 34px;
+  color: black;
+  font-weight: bold;
+}
+.explore-button {
+  background-color: darkblue;
+  color: white;
+  width: 100px;
+  height: 40px;
+  align-self: center;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border: 0px dotted blue;
+}
+.product-image {
+  height: 50vh;
+  width: 30vw;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 25px;
+}

@@ -1,0 +1,52 @@
+.register-container {
+  display: flex;
+  background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg");
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.registration-form {
+  background-color: #ffffff;
+  height: 50vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.submit-button {
+  height: 42px;
+  width: 50%;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  background-color: blue;
+  font-size: 18px;
+  align-self: center;
+}
+.register-heading {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  color: green;
+}
+.input {
+  height: 42px;
+  width: 80%;
+  color: black;
+  font-size: 12px;
+  padding: 14px;
+  margin-left: 10px;
+}
+.label {
+  margin-left: 10px;
+}
+.link-button {
+  color: blue;
+  background-color: transparent;
+  text-align: center;
+  border: 0px;
+  margin-top: 1px;
+}
